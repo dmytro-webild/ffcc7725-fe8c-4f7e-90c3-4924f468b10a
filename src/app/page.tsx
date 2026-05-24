@@ -118,6 +118,7 @@ export default function LandingPage() {
       ]}
       title="Menu Highlights"
       description="Hearty comfort food meets premium specialty brews."
+      buttons={[{ text: "View Full Menu", href: "/menu" }]}
     />
   </div>
 
