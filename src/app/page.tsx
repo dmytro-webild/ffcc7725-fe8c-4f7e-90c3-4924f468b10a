@@ -31,16 +31,16 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "หน้าแรก",          id: "hero"},
         {
-          name: "About",          id: "about"},
+          name: "เกี่ยวกับเรา",          id: "about"},
         {
-          name: "Menu",          id: "menu"},
+          name: "เมนู",          id: "menu"},
         {
-          name: "Contact",          id: "contact"},
+          name: "ติดต่อ",          id: "contact"},
       ]}
       brandName="Daily Drift"
-      button={{ text: "Book Table" }}
+      button={{ text: "จองโต๊ะ" }}
     />
   </div>
 
@@ -50,19 +50,19 @@ export default function LandingPage() {
       description="Your neighborhood tropical escape. Specialty coffee, comforting dishes, and an unpretentious atmosphere waiting just for you."
       testimonials={[
         {
-          name: "Sarah J.",          handle: "@sarah_j",          testimonial: "The best baked pork rice in town. I come here to work and stay for the vibe.",          rating: 5,
+          name: "Sarah J.",          handle: "@sarah_j",          testimonial: "หมูอบอร่อยที่สุดในเมือง ฉันมาทำงานที่นี่และชอบบรรยากาศมาก",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/girl-reading-book-cafeteria_23-2148171446.jpg?_wi=1",          imageAlt: "cozy cafe exterior plants"},
         {
-          name: "Mike D.",          handle: "@miked",          testimonial: "Cold brew is crisp and the staff are always smiling. Pet-friendly too!",          rating: 5,
+          name: "Mike D.",          handle: "@miked",          testimonial: "กาแฟสกัดเย็นสดชื่นมาก พนักงานยิ้มแย้มตลอด เป็นมิตรกับสัตว์เลี้ยงด้วย!",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/hand-holding-delicious-food_23-2150645799.jpg?_wi=1",          imageAlt: "cozy cafe exterior plants"},
         {
-          name: "Emily R.",          handle: "@emilyr",          testimonial: "Finally, a cafe that feels like home. The eggplant stir-fry is a hidden gem.",          rating: 5,
+          name: "Emily R.",          handle: "@emilyr",          testimonial: "ในที่สุดก็เจอร้านที่รู้สึกเหมือนบ้าน มะเขือยาวผัดอร่อยมาก",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=1",          imageAlt: "cozy cafe exterior plants"},
         {
-          name: "Kevin T.",          handle: "@kevint",          testimonial: "I love the warm cream tones—best aesthetic for my morning Instagram post.",          rating: 5,
+          name: "Kevin T.",          handle: "@kevint",          testimonial: "ชอบโทนสีครีมของร้านนี้มาก เหมาะกับการถ่ายลง Instagram สุดๆ",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=1",          imageAlt: "cozy cafe exterior plants"},
         {
-          name: "Anna W.",          handle: "@annaw",          testimonial: "Casual, lush, and delicious. Can't start my weekend without their coffee.",          rating: 5,
+          name: "Anna W.",          handle: "@annaw",          testimonial: "สบายๆ ร่มรื่น และอาหารอร่อย เริ่มต้นวันหยุดด้วยกาแฟของที่นี่ขาดไม่ได้เลย",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=1",          imageAlt: "cozy cafe exterior plants"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/girl-reading-book-cafeteria_23-2148171446.jpg?_wi=2"
@@ -78,7 +78,7 @@ export default function LandingPage() {
         {
           src: "http://img.b2bpic.net/free-photo/teen-girls-writing-notebooks-cafe_23-2147860799.jpg",          alt: "Customer 5"},
       ]}
-      avatarText="Join our growing community"
+      avatarText="เข้าร่วมคอมมูนิตี้ของเรา"
     />
   </div>
 
@@ -87,11 +87,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",          content: "Built for the "},
+          type: "text",          content: "สร้างขึ้นเพื่อ "},
         {
           type: "image",          src: "http://img.b2bpic.net/free-photo/hand-holding-delicious-food_23-2150645799.jpg",          alt: "Cafe Interior"},
         {
-          type: "text",          content: " daily drift."},
+          type: "text",          content: " วันสบายๆ ของคุณ"},
       ]}
     />
   </div>
@@ -103,16 +103,16 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={true}
       products={[
-        { id: "1", name: "Signature Steak (Signature Choice)", price: "$18", variant: "Premium Grass-fed", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=2" },
-        { id: "2", name: "Baked Pork Rice (Signature Choice)", price: "$12", variant: "Cafe Classic", imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=2" },
-        { id: "3", name: "Eggplant Stir-fry (Signature Choice)", price: "$10", variant: "Vegetarian", imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=2" },
-        { id: "4", name: "Cold Brew", price: "$5", variant: "House Blend", imageSrc: "http://img.b2bpic.net/free-photo/hot-california-sushi-rolls-with-red-caviar_114579-2128.jpg" },
-        { id: "5", name: "Flat White", price: "$4", variant: "Specialty", imageSrc: "http://img.b2bpic.net/free-photo/top-view-breakfast_23-2147985103.jpg" },
-        { id: "6", name: "Pastry Assortment", price: "$6", variant: "Daily Baked", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-delicious-eggplants-dish-still-life_23-2150561815.jpg" },
+        { id: "1", name: "สเต็กซิกเนเจอร์", price: "$18", variant: "เนื้อวัวพรีเมียม", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=2" },
+        { id: "2", name: "ข้าวอบหมู", price: "$12", variant: "สูตรคลาสสิก", imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=2" },
+        { id: "3", name: "มะเขือยาวผัด", price: "$10", variant: "มังสวิรัติ", imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=2" },
+        { id: "4", name: "กาแฟสกัดเย็น", price: "$5", variant: "สูตรพิเศษ", imageSrc: "http://img.b2bpic.net/free-photo/hot-california-sushi-rolls-with-red-caviar_114579-2128.jpg" },
+        { id: "5", name: "แฟลตไวท์", price: "$4", variant: "สเปเชียลตี้", imageSrc: "http://img.b2bpic.net/free-photo/top-view-breakfast_23-2147985103.jpg" },
+        { id: "6", name: "ขนมหวานรวม", price: "$6", variant: "อบสดใหม่", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-delicious-eggplants-dish-still-life_23-2150561815.jpg" },
       ]}
-      title="Menu Highlights"
-      description="Hearty comfort food meets premium specialty brews."
-      buttons={[{ text: "Order Now", href: "#contact" }, { text: "View Full Menu", href: "/menu" }]}
+      title="เมนูแนะนำ"
+      description="อาหารสไตล์โฮมมี่และกาแฟคุณภาพพรีเมียม"
+      buttons={[{ text: "สั่งเลย", href: "#contact" }, { text: "ดูเมนูทั้งหมด", href: "/menu" }]}
     />
   </div>
 
@@ -123,14 +123,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "1",          title: "Pet-Friendly",          description: "Bring your furry friends along.",          tag: "Relax",          imageSrc: "http://img.b2bpic.net/free-photo/frame-mock-up-with-coffee_23-2148332801.jpg"},
+          id: "1",          title: "เป็นมิตรกับสัตว์เลี้ยง",          description: "พาเพื่อนสี่ขาของคุณมาด้วยได้เลย",          tag: "ผ่อนคลาย",          imageSrc: "http://img.b2bpic.net/free-photo/frame-mock-up-with-coffee_23-2148332801.jpg"},
         {
-          id: "2",          title: "Cozy Seating",          description: "Lush indoor greenery and warm tables.",          tag: "Comfort",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-cup_74190-2977.jpg"},
+          id: "2",          title: "ที่นั่งสบาย",          description: "เต็มไปด้วยไม้ประดับและโต๊ะอบอุ่น",          tag: "ความสบาย",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-cup_74190-2977.jpg"},
         {
-          id: "3",          title: "Hangout Vibe",          description: "The perfect spot to read or work.",          tag: "Vibes",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-senior-women-with-tea-cups_23-2149365794.jpg"},
+          id: "3",          title: "มุมพักผ่อน",          description: "เหมาะสำหรับการอ่านหนังสือหรือนั่งทำงาน",          tag: "บรรยากาศ",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-senior-women-with-tea-cups_23-2149365794.jpg"},
       ]}
-      title="A Lush Escape"
-      description="Step into our tropical-modern sanctuary."
+      title="พื้นที่พักผ่อนที่ร่มรื่น"
+      description="ก้าวเข้ามาในร้านของเราที่ให้บรรยากาศเหมือนอยู่เขตร้อน"
     />
   </div>
 
@@ -140,18 +140,18 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          name: "Alice M.",          date: "Oct 2023",          title: "Great Vibe",          quote: "Honestly the most relaxing spot in the city.",          tag: "Regular",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-brunette-woman-drinks-morning-coffee-cafe_613910-12094.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/girl-reading-book-cafeteria_23-2148171446.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
+          id: "1",          name: "Alice M.",          date: "ต.ค. 2023",          title: "บรรยากาศดี",          quote: "เป็นร้านที่ผ่อนคลายที่สุดในเมืองเลย",          tag: "ลูกค้าประจำ",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-brunette-woman-drinks-morning-coffee-cafe_613910-12094.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/girl-reading-book-cafeteria_23-2148171446.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
         {
-          id: "2",          name: "Ben K.",          date: "Nov 2023",          title: "Best Coffee",          quote: "I drink coffee everywhere, but this is different.",          tag: "Coffee Lover",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-blonde-student-woman-reading-her-notes-drinking-coffee-cafe-outdoors-waiting-her-classes-smiling_197531-22628.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/hand-holding-delicious-food_23-2150645799.jpg?_wi=2",          imageAlt: "smiling cafe customer portrait"},
+          id: "2",          name: "Ben K.",          date: "พ.ย. 2023",          title: "กาแฟอร่อย",          quote: "ผมดื่มกาแฟมาหลายที่ แต่ที่นี่ไม่เหมือนใคร",          tag: "คอกาแฟ",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-blonde-student-woman-reading-her-notes-drinking-coffee-cafe-outdoors-waiting-her-classes-smiling_197531-22628.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/hand-holding-delicious-food_23-2150645799.jpg?_wi=2",          imageAlt: "smiling cafe customer portrait"},
         {
-          id: "3",          name: "Chloe S.",          date: "Dec 2023",          title: "Cozy Escape",          quote: "Love the plants and the quiet morning music.",          tag: "Fan",          avatarSrc: "http://img.b2bpic.net/free-photo/people-leisure-lifestyle-concept-successful-young-man-black-hat-casual-t-shirt-having-coffee-sitting-sidewalk-restaurant_273609-1754.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
+          id: "3",          name: "Chloe S.",          date: "ธ.ค. 2023",          title: "มุมพักผ่อนที่แสนสบาย",          quote: "ชอบต้นไม้และดนตรีตอนเช้าเบาๆ ที่นี่มาก",          tag: "แฟนคลับ",          avatarSrc: "http://img.b2bpic.net/free-photo/people-leisure-lifestyle-concept-successful-young-man-black-hat-casual-t-shirt-having-coffee-sitting-sidewalk-restaurant_273609-1754.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
         {
-          id: "4",          name: "Dan R.",          date: "Jan 2024",          title: "Tasty Food",          quote: "The steak was surprisingly good for a cafe.",          tag: "Foodie",          avatarSrc: "http://img.b2bpic.net/free-photo/smiling-young-lady-designer-sitting-indoors-night-holding-pencil_171337-15774.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
+          id: "4",          name: "Dan R.",          date: "ม.ค. 2024",          title: "อาหารอร่อย",          quote: "สเต็กอร่อยเกินคาดสำหรับร้านกาแฟ",          tag: "นักชิม",          avatarSrc: "http://img.b2bpic.net/free-photo/smiling-young-lady-designer-sitting-indoors-night-holding-pencil_171337-15774.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
         {
-          id: "5",          name: "Ellen V.",          date: "Feb 2024",          title: "Warm Welcome",          quote: "Everything feels so intentional here. Loved it.",          tag: "Guest",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-friends-enjoying-cup-coffee_23-2148395305.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
+          id: "5",          name: "Ellen V.",          date: "ก.พ. 2024",          title: "ต้อนรับอย่างอบอุ่น",          quote: "ทุกอย่างในร้านดูใส่ใจมาก ชอบมากค่ะ",          tag: "ลูกค้า",          avatarSrc: "http://img.b2bpic.net/free-photo/smiley-friends-enjoying-cup-coffee_23-2148395305.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=3",          imageAlt: "smiling cafe customer portrait"},
       ]}
-      title="Customer Stories"
-      description="Don't just take our word for it."
+      title="เรื่องราวจากลูกค้า"
+      description="อย่าเชื่อเพียงแค่ที่เราบอก ต้องลองมาสัมผัสเอง"
     />
   </div>
 
@@ -160,9 +160,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "The Daily Sip",        "City Bites",        "Green Oasis Weekly",        "Neighborhood Finds",        "Coffee Culture Mag",        "Urban Escape Journal",        "Cafe Life Weekly"]}
-      title="Community Favorites"
-      description="Featured in local city guides."
+        "The Daily Sip",        "City Bites",        "Green Oasis Weekly",        "Neighborhood Finds",        "Coffee Culture Mag",        "Urban Escape Journal",        "Cafe Life Weekly"]}    
+      title="ร้านโปรดของคนในพื้นที่"
+      description="ได้รับการแนะนำในคู่มือท่องเที่ยวท้องถิ่น"
     />
   </div>
 
@@ -171,9 +171,9 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "gradient-bars"}}
-      tag="Contact"
-      title="Visit Daily Drift"
-      description="123 Coffee Lane, Downtown. Open Mon-Sun, 8am - 8pm. Call us at (555) 123-4567 to reserve your table today!"
+      tag="ติดต่อเรา"
+      title="มาหาเราที่ Daily Drift"
+      description="123 Coffee Lane, ใจกลางเมือง เปิดทุกวัน 8:00 - 20:00 น. โทร (555) 123-4567 เพื่อจองโต๊ะวันนี้!"
     />
   </div>
 
@@ -181,17 +181,17 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Navigation",          items: [
+          title: "นำทาง",          items: [
             {
-              label: "Menu",              href: "#menu"},
+              label: "เมนู",              href: "#menu"},
             {
-              label: "About",              href: "#about"},
+              label: "เกี่ยวกับเรา",              href: "#about"},
             {
-              label: "Reviews",              href: "#reviews"},
+              label: "รีวิว",              href: "#reviews"},
           ],
         },
         {
-          title: "Social",          items: [
+          title: "โซเชียลมีเดีย",          items: [
             {
               label: "Instagram",              href: "#"},
             {
@@ -202,7 +202,7 @@ export default function LandingPage() {
         },
       ]}
       bottomLeftText="© 2024 Daily Drift Cafe."
-      bottomRightText="All rights reserved."
+      bottomRightText="สงวนลิขสิทธิ์"
     />
   </div>
       </ReactLenis>
