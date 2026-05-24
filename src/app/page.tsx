@@ -66,12 +66,12 @@ export default function LandingPage() {
 
   <div id="menu" data-section="menu">
       <ProductCardFour
-      animationType="slide-up"
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={true}
       title="เมนูแนะนำ"
       description="อาหารสไตล์โฮมมี่และกาแฟคุณภาพพรีเมียม"
+      animationType="slide-up"
       buttons={[{ text: "สั่งเลย", href: "#contact" }]}
     />
   </div>
@@ -94,6 +94,7 @@ export default function LandingPage() {
       testimonials={[]}
       title="เรื่องราวจากลูกค้า"
       description="อย่าเชื่อเพียงแค่ที่เราบอก ต้องลองมาสัมผัสเอง"
+      animationType="slide-up"
     />
   </div>
 
@@ -102,15 +103,19 @@ export default function LandingPage() {
       names={["The Daily Sip", "City Bites", "Green Oasis Weekly"]}
       title="ร้านโปรดของคนในพื้นที่"
       description="ได้รับการแนะนำในคู่มือท่องเที่ยวท้องถิ่น"
+      textboxLayout="default"
+      useInvertedBackground={false}
     />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactSplit
+      tag="ติดต่อเรา"
       title="มาหาเราที่ Daily Drift"
       description="123 Coffee Lane, เปิดทุกวัน 8:00 - 20:00 น."
       background={{ variant: "gradient-bars" }}
       useInvertedBackground={true}
+      mediaAnimation="none"
     />
   </div>
 
