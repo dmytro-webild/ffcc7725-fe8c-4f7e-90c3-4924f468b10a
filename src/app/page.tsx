@@ -103,22 +103,16 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={true}
       products={[
-        {
-          id: "1",          name: "Signature Steak",          price: "$18",          variant: "Premium Grass-fed",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=2"},
-        {
-          id: "2",          name: "Baked Pork Rice",          price: "$12",          variant: "Cafe Classic",          imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=2"},
-        {
-          id: "3",          name: "Eggplant Stir-fry",          price: "$10",          variant: "Vegetarian",          imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=2"},
-        {
-          id: "4",          name: "Cold Brew",          price: "$5",          variant: "House Blend",          imageSrc: "http://img.b2bpic.net/free-photo/hot-california-sushi-rolls-with-red-caviar_114579-2128.jpg"},
-        {
-          id: "5",          name: "Flat White",          price: "$4",          variant: "Specialty",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-breakfast_23-2147985103.jpg"},
-        {
-          id: "6",          name: "Pastry Assortment",          price: "$6",          variant: "Daily Baked",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-delicious-eggplants-dish-still-life_23-2150561815.jpg"},
+        { id: "1", name: "Signature Steak (Signature Choice)", price: "$18", variant: "Premium Grass-fed", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-delicious-food_23-2148948992.jpg?_wi=2" },
+        { id: "2", name: "Baked Pork Rice (Signature Choice)", price: "$12", variant: "Cafe Classic", imageSrc: "http://img.b2bpic.net/free-photo/indian-butter-chicken-black-bowl-wooden-table_123827-20546.jpg?_wi=2" },
+        { id: "3", name: "Eggplant Stir-fry (Signature Choice)", price: "$10", variant: "Vegetarian", imageSrc: "http://img.b2bpic.net/free-photo/boiled-fish-with-red-green-pepper-bowl_140725-3926.jpg?_wi=2" },
+        { id: "4", name: "Cold Brew", price: "$5", variant: "House Blend", imageSrc: "http://img.b2bpic.net/free-photo/hot-california-sushi-rolls-with-red-caviar_114579-2128.jpg" },
+        { id: "5", name: "Flat White", price: "$4", variant: "Specialty", imageSrc: "http://img.b2bpic.net/free-photo/top-view-breakfast_23-2147985103.jpg" },
+        { id: "6", name: "Pastry Assortment", price: "$6", variant: "Daily Baked", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-delicious-eggplants-dish-still-life_23-2150561815.jpg" },
       ]}
       title="Menu Highlights"
       description="Hearty comfort food meets premium specialty brews."
-      buttons={[{ text: "View Full Menu", href: "/menu" }]}
+      buttons={[{ text: "Order Now", href: "#contact" }, { text: "View Full Menu", href: "/menu" }]}
     />
   </div>
 
