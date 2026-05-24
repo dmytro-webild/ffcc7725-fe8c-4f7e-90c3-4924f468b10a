@@ -178,7 +178,7 @@ export default function LandingPage() {
         variant: "gradient-bars"}}
       tag="Contact"
       title="Visit Daily Drift"
-      description="123 Coffee Lane, Downtown. Open Mon-Sun, 8am - 8pm."
+      description="123 Coffee Lane, Downtown. Open Mon-Sun, 8am - 8pm. Call us at (555) 123-4567 to reserve your table today!"
     />
   </div>
 
