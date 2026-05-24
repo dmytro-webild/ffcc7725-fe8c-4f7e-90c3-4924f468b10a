@@ -94,7 +94,6 @@ export default function LandingPage() {
       testimonials={[]}
       title="เรื่องราวจากลูกค้า"
       description="อย่าเชื่อเพียงแค่ที่เราบอก ต้องลองมาสัมผัสเอง"
-      animationType="slide-up"
     />
   </div>
 
