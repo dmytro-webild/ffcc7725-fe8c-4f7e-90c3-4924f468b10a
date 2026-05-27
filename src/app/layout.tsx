@@ -7,12 +7,13 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Mulish } from "next/font/google";
 import { DM_Sans } from "next/font/google";
+import Tag from "@/tag/Tag";
 
 
 
 export const metadata: Metadata = {
-  title: 'Daily Drift Cafe | Slow Life, Good Vibes',
-  description: 'Experience tropical-modern comfort at Daily Drift Cafe. Specialty coffee, hearty comfort food, and the perfect cozy atmosphere for your daily drift.',
+  title: "Daily Drift Cafe | Slow Life, Good Vibes",
+  description: "Experience tropical-modern comfort at Daily Drift Cafe. Specialty coffee, hearty comfort food, and the perfect cozy atmosphere for your daily drift.",
   openGraph: {
     "title": "Daily Drift Cafe",
     "description": "Your tropical escape in the city.",
@@ -47,7 +48,8 @@ export default function RootLayout({
                   __html: `${getVisualEditScript()}`
               }}
           />
-        </body>
+        <Tag />
+</body>
       </ServiceWrapper>
     </html>
   );
